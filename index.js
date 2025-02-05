@@ -57,11 +57,17 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'What are the test instructions?',
+        validate(val) {
+            return val.trim().length > 0 ? true : 'Please enter test instructions.';
+          }
       },
       {
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
+        validate(val) {
+            return val.trim().length > 0 ? true : 'Please enter your email address.';
+          }
       },
       {
         type: 'input',
@@ -75,7 +81,7 @@ const questions = [
 
 //  Function to write README file
 function writeToFile(fileName, data) {
-  `
+  const readmeContent = `
 # ${data.projectName}
 
 ## Description
@@ -104,7 +110,7 @@ You can also find more of my work at [${data.github}](https://github.com/${data.
     console.log('README.md file created successfully!');
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
       writeToFile('README.md', data);
