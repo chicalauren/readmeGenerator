@@ -1,2 +1,2 @@
-# readmeGenerator
+# README Generator
 Professional README Generator
