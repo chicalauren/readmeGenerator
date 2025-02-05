@@ -15,7 +15,7 @@ const questions = [
       {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of your project: \n- What was your motivation?\n- Why did you build this project?\n- What problem does it solve?\n- What did you learn?',
+        message: 'Provide a description of your project: \n- What was your motivation?\n- Why did you build this project?\n- What problem does it solve?\n- What did you learn?\n',
         validate(val) { 
             return val.trim().length > 0 ? true : 'Please enter a project description.';
           }
@@ -23,7 +23,7 @@ const questions = [
       {
         type: 'input',
         name: 'installation',
-        message: 'What are the installation instructions?\nWhat are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What are the installation instructions?\nWhat are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.\n',
         validate(val) {
             return val.trim().length > 0 ? true : 'Please enter installation instructions.';
           }
