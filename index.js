@@ -87,6 +87,15 @@ function writeToFile(fileName, data) {
 ## Description
 ${data.description}
 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
 ## Installation
 ${data.installation}
 
@@ -100,7 +109,7 @@ ${data.contribution}
 ${data.test}
 
 ## License
-This project is licensed under the ${data.license} license.
+This project is licensed under the ${data.license} license - see LICENSE.md file for details.
 
 ## Questions
 If you have any questions, please reach out to me at [${data.email}](mailto:${data.email}).
