@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Professional README Generator",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicalauren/readmeGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chicalauren/readmeGenerator/issues"
+  },
+  "homepage": "https://github.com/chicalauren/readmeGenerator#readme"
 }
