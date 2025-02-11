@@ -39,7 +39,7 @@ To test, once downloaded:
 
 ## License
 This project is licensed under the MIT license - see LICENSE.md file for details.
-https://img.shields.io/badge/License-MIT-green
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions
 If you have any questions, please reach out to me at [janedoe@gmail.com](mailto:janedoe@gmail.com).
